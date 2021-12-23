@@ -61,7 +61,7 @@
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
+    <Compile Include="Form3.designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
     <Compile Include="Form4.cs">
@@ -70,8 +70,38 @@
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Kahvaltı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kahvaltı.designer.cs">
+      <DependentUpon>Kahvaltı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kahveler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kahveler.designer.cs">
+      <DependentUpon>Kahveler.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AnaYemekler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaYemekler.designer.cs">
+      <DependentUpon>AnaYemekler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salatalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salatalar.designer.cs">
+      <DependentUpon>Salatalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tostlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tostlar.designer.cs">
+      <DependentUpon>Tostlar.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +114,12 @@
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Kahvaltı.resx">
+      <DependentUpon>Kahvaltı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kahveler.resx">
+      <DependentUpon>Kahveler.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -94,6 +130,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="AnaYemekler.resx">
+      <DependentUpon>AnaYemekler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salatalar.resx">
+      <DependentUpon>Salatalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tostlar.resx">
+      <DependentUpon>Tostlar.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

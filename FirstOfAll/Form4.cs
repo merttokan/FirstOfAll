@@ -12,8 +12,9 @@ namespace FirstOfAll
 {
     public partial class Kasa : Form
     {
+        
         Mutfak mutfakform = new Mutfak();
-
+        
         int count1 = 0;
         int count2 = 0;
         int count3 = 0;
@@ -196,7 +197,7 @@ namespace FirstOfAll
                         count25 = num;
                     }
                     else if (tempOb.Equals(burn.Text.ToString()))
-                    {
+                    {           
                         count26 = num;
                     }
                     else if (tempOb.Equals(monster.Text.ToString()))
@@ -531,11 +532,7 @@ namespace FirstOfAll
 
         private void button1_Click_5(object sender, EventArgs e)
         {
-            foreach(string chkitems in mutfakform.checkedListBox1.Items.OfType<string>().ToList())
-            {
-                checkedListBox2.Items.Add(chkitems);
-                mutfakform.checkedListBox1.Items.Remove(chkitems);
-            }
+          
         }
     }
 }

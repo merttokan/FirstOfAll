@@ -12,21 +12,60 @@ namespace FirstOfAll
 {
     public partial class Mutfak : Form
     {
-        
+        Salatalar salata = new Salatalar();
+        Tostlar tost = new Tostlar();
+        AnaYemekler yemek = new AnaYemekler();
+        Kahveler kahve = new Kahveler();
+        Khvlt kahvalti = new Khvlt();
         public Mutfak()
         {
+            
             InitializeComponent();
         }
-
-        public  void mutfakdeneme_Click(object sender, EventArgs e)
+       
+        
+        private void Mutfak_Load(object sender, EventArgs e)
         {
-            checkedListBox1.Items.Add(mutfakdeneme.Text);
-            
+
         }
 
-        private void eklekasa_Click(object sender, EventArgs e)
+        private void bpSv_Click(object sender, EventArgs e)
         {
 
+
+            yemek.Show(); 
+        }
+
+
+        private void Kahvaltı_Click(object sender, EventArgs e)
+        {
+
+            
+            kahvalti.Show();
+        }
+
+        private void Tostlar_Click(object sender, EventArgs e)
+        {
+            
+            tost.Show();
+
+        }
+
+        private void Corba_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Kahveler_Click(object sender, EventArgs e)
+        {
+            
+            kahve.Show();
+        }
+
+        private void Salatalar_Click(object sender, EventArgs e)
+        {
+            
+            salata.Show();
         }
     }
 }
