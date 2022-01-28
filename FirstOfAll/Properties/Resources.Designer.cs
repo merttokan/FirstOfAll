@@ -73,6 +73,26 @@ namespace FirstOfAll.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Firin {
+            get {
+                object obj = ResourceManager.GetObject("Firin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Firin1 {
+            get {
+                object obj = ResourceManager.GetObject("Firin1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IMG_20201117_WA0017 {
             get {
                 object obj = ResourceManager.GetObject("IMG-20201117-WA0017", resourceCulture);
@@ -86,6 +106,66 @@ namespace FirstOfAll.Properties {
         internal static System.Drawing.Bitmap istockphoto_1129081313_170667a {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1129081313-170667a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Katman_3 {
+            get {
+                object obj = ResourceManager.GetObject("Katman_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mutfak {
+            get {
+                object obj = ResourceManager.GetObject("Mutfak", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Seçilenden {
+            get {
+                object obj = ResourceManager.GetObject("Seçilenden", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Seçilenden__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Seçilenden (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Seçilenden__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Seçilenden (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Seçilenden__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Seçilenden (3)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
